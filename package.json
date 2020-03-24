@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-font": "icon-font-generator svg/*.svg -o font",
-    "prepare": "build-font"
+    "prepare": "npm run-script build-font"
   },
   "keywords": [],
   "author": "",
