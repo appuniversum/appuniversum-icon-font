@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-font": "icon-font-generator svg/*.svg -o font",
+    "build-font": "icon-font-generator svg/*.svg -o font --height=1000",
     "prepare": "npm run-script build-font"
   },
   "keywords": [],
